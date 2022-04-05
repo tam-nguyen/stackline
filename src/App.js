@@ -1,8 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import Nav from "./components/nav";
+import LeftSidebar from "./components/leftSidebar";
+import RightSidebar from "./components/rightSidebar";
 function App() {
-  return <div className="App">update</div>;
+  console.log("hello");
+  return (
+    <div className="App">
+      <Nav />
+      <div className="main">
+        <LeftSidebar />
+        <RightSidebar />
+      </div>
+    </div>
+  );
 }
 
 export default App;

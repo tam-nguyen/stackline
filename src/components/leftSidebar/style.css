@@ -1,0 +1,21 @@
+.left-sidebar-inner {
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 3px 5px 5px 3px #888888;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: white;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags .tag {
+  border: 1px solid grey;
+  flex: 0 1 30%;
+  padding: 2px;
+  margin-top: 5px;
+}
